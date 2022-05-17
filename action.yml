@@ -1,0 +1,11 @@
+name: "tags-versioning"
+
+description: "Find the last version from tags name that matches the pattern v0.0.0 . If none is found, starts from v0.0.0"
+
+inputs:
+  repo-token:
+    description: "Token with permissions to do repo things"
+
+runs:
+  using: "node12"
+  main: "main.js"
