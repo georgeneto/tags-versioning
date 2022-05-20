@@ -1,4 +1,7 @@
 name: "tags-versioning"
+branding: 
+  icon: 'plus'
+  color: 'orange'
 
 description: "Find the last version from tags name that matches the pattern v0.0.0 . If none is found, starts from v0.0.0"
 
